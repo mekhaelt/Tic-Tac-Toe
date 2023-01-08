@@ -1,9 +1,19 @@
 # Tic-Tac-Toe
 This program uses Java and JavaAWT to create a functional game of Tic Tac Toe. 
 
-Object-oriented programming is used to create a Tic Tac Toe space object with different attributes based on if the space contains an 'x', 'o', or if it is blank.
+## Getting Started
+Clone the repository  
 
-A Tic Tac Toe board object is created and given the Tic Tac Toe space attribute. Manipulation of 1-D & 2-D arrays is used create the layout for the board and create the logic for the game. It prevents any errors from occurring (ie. placing an x on top of an already placed o), creates the condition for winning the game (get 3 of your symbols in a row), and creates the condition for a tie (when no win has taken place and no more empty spaces are available).
+Run TicTacToeGame.java
 
-Java AWT creates the graphical interface for the board: it sets up the colour scheme, the fonts of all the characters, the size of all the buttons and more.
+A new window should open, click 'Start Game' and then tic tac toe can be played with all of the traditional rules. The 'Reset Game' button can be used to restart the game at any point and the 'Start Game' button must be clicked to play a new game.
+
+
+## Running Tests
+Run TicTacToeTest.java. This program will test various scenarios within the game which could produce problems within the code. The program should produce the following results 
+
+![](Images/Test_Cases.png)
+
+
+
 
